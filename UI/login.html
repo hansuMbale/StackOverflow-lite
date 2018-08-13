@@ -1,23 +1,37 @@
 <!DOCTYPE html>
 <html>
-<head>
-   
-<title>StackOverFlow Lite</title>
-<link rel="stylesheet" type="text/css" href="styles.css">  
-</head>
-<body ><center>
 
-    <div class="login">
-           
-                  <legend>Login Page</legend><br>
-                  <label>Username:</label>
-                  <input class="login" type="text"><br><br>
-                  <label>Password:</label>
-                  <input class="login" type="text"><br><br>
-                 <a href="home.html" ><button>login</button></a>
-                  <button>Cancel</button>
-                
-      </div>
+<head>
+
+    <title>StackOverFlow Lite</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="javascript.js"></script>
+</head>
+
+<body>
+    <center>
+
+        <div class="login">
+
+
+
+            <form name="login">
+                <legend>Login Page</legend>
+                <br>
+                <label>Username:</label>
+                <input class="login" type="text" name="userid">
+                <br>
+                <br>
+                <label>Password:</label>
+                <input class="login" type="text" name="pswrd">
+                <br>
+                <br>
+                <input type="button" onclick="check(this.form)" value="Login" />
+                <input type="reset" value="Cancel" />
+            </form>
+
+        </div>
     </center>
 </body>
+
 </html>
