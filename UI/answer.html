@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>StackOverFlow Lite</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <center>
+            <div class="topnav">
+                    <input type="text" placeholder="Enter a question..">
+                    <button class="submit">Search</i></button>
+                  </div>
+
+        <button class="home">Ask a Question</button>
+        <div class="answer">    
+            <table>
+                <tr>
+                    <td>
+                        <label>Question</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><p>How to check request method inside Python class?</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                            <label>Anwers</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                            <p>Why are you using a class instead of a function?
+                                    It sound like a bad idea to call that everytime a post request is done.
+                                    Please explain what you try to achieve otherwise it looks like XY Problem – amirouche </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                            <p>You can use Flask.request_started signal to run something everytime a request arrive and then execute the code
+                                    you require.</p>
+                    </td>
+                </tr>
+            </table>
+
+            <label>Your Answer</label>
+            <br>
+            <textarea type="text"></textarea>
+            <br>
+            <button>Your answer</button>
+        </div>
+    </center>
+</body>
+
+</html>
