@@ -1,0 +1,82 @@
+body {
+    background-color: lightblue;
+    padding-top: 6%;
+}
+
+
+  
+button{
+        background-color: teal;
+        border: none;
+        color: white;
+        padding: 6px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+    }
+legend{
+    font-size: 30px;
+    font: italic;
+
+    }
+input.login{
+
+    font-size: 15px;
+
+
+
+}
+label{
+    font-size: 20px;
+    align-items: left;
+}
+button.home{
+    float: right;
+    width: 25%;
+}
+button.submit{
+    margin-left: -400px;
+    background-color: darkgrey
+}
+textarea
+{
+    width: 60%;
+    padding: 2%;
+}
+footer{
+    color: teal ;
+}
+table{
+    width: 60%;
+}
+
+ input.topnav {
+    float: left;
+    padding: 6px;
+    border: none;
+    width: 50%;
+    margin-right: 16px;
+    font-size: 17px;
+    margin-left: 98px;
+}
+
+input[type=reset]{
+    background-color: teal;
+        border: none;
+        color: white;
+        padding: 6px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;}
+input[type=button]{
+    background-color: teal;
+        border: none;
+        color: white;
+        padding: 6px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+}
